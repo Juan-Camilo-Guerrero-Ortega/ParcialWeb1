@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title>Parcial WEB</title> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css"
+        href="/Primer Sitio Web/estilos.css" media="screen" />
+        <script type="text/javascript" src="/Primer Sitio Web/functions.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</head>
+<body>
+    <div id="tabla1">
+    <form >
+        <table>
+            <p class="centrado">Tabla de Calorias</p> 
+            <caption>Contenido nutricional por cada 100g de alimento.</caption>
+            <tr>
+                <th>Alimento</th><th>Calorias<br/>(kCal)</th><th>Grasas<br/>(g)</th><th>Proteina<br/>(g)</th><th>Carbohidratos<br/>(g)</th><th>Ok</th><th>Opciones</th>
+            </tr>
+            <tr>
+                <td>Arándano</td><td>49</td><td>0.2</td><td>0.4</td><td>12.7</td><td><i class="far fa-smile"></i></td><td class="editar" onclick="editarFila(1)">Editar</td>
+            </tr>
+            <tr>
+                <td>Plátano</td><td>90</td><td>0.3</td><td>1.0</td><td>23.5</td><td><i class="far fa-frown"></i></td><td class="editar" onclick="editarFila(2)">Editar</td>
+            </tr>
+            <tr>
+                <td>Cereza</td><td>46</td><td>0.4</td><td>0.9</td><td>10.9</td><td><i class="far fa-frown"></i></td><td class="editar" onclick="editarFila(3)">Editar</td>
+            </tr>
+            <tr>
+                <td>Fresa</td><td>37</td><td>0.5</td><td>0.8</td><td>8.3</td><td><i class="far fa-smile"></i></td><td class="editar" onclick="editarFila(4)">Editar</td>
+            </tr>
+        </table><br/>
+        <div id="botonesForm"></div>
+    </form>
+    </div>
+</body>
+</html>
